@@ -1,0 +1,18 @@
+Validation Accuracy: 0.9188
+Validation Macro F1-score: 0.9307
+Test Accuracy: 0.9173
+Test Macro F1-score: 0.9311
+
+              precision    recall  f1-score   support
+
+    BARBUNYA       0.92      0.94      0.93       198
+      BOMBAY       1.00      1.00      1.00        78
+        CALI       0.94      0.92      0.93       245
+    DERMASON       0.92      0.89      0.91       532
+       HOROZ       0.94      0.95      0.95       279
+       SEKER       0.93      0.95      0.94       304
+        SIRA       0.86      0.86      0.86       396
+
+    accuracy                           0.92      2032
+   macro avg       0.93      0.93      0.93      2032
+weighted avg       0.92      0.92      0.92      2032
