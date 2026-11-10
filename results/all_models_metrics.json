@@ -1,0 +1,82 @@
+[
+  {
+    "model_name": "Random Forest",
+    "dataset": "Dry Bean Dataset",
+    "train_samples": 9480,
+    "validation_samples": 2031,
+    "test_samples": 2032,
+    "features": 16,
+    "train": {
+      "accuracy": 0.9962025316455696,
+      "macro_f1": 0.9973689528375312
+    },
+    "validation": {
+      "accuracy": 0.9187592319054653,
+      "macro_f1": 0.930703872288673
+    },
+    "test": {
+      "accuracy": 0.9173228346456693,
+      "macro_f1": 0.9310883618868242
+    }
+  },
+  {
+    "model_name": "SVM RBF",
+    "dataset": "Dry Bean Dataset",
+    "train_samples": 9480,
+    "validation_samples": 2031,
+    "test_samples": 2032,
+    "features": 16,
+    "train": {
+      "accuracy": 0.9393459915611815,
+      "macro_f1": 0.9511092129089163
+    },
+    "validation": {
+      "accuracy": 0.9271294928606598,
+      "macro_f1": 0.937746452889748
+    },
+    "test": {
+      "accuracy": 0.9192913385826772,
+      "macro_f1": 0.9330599248969829
+    }
+  },
+  {
+    "model_name": "MLP",
+    "dataset": "Dry Bean Dataset",
+    "train_samples": 9480,
+    "validation_samples": 2031,
+    "test_samples": 2032,
+    "features": 16,
+    "train": {
+      "accuracy": 0.9335443037974683,
+      "macro_f1": 0.9445378063658455
+    },
+    "validation": {
+      "accuracy": 0.9276218611521418,
+      "macro_f1": 0.9366672151486617
+    },
+    "test": {
+      "accuracy": 0.9207677165354331,
+      "macro_f1": 0.9333748529086993
+    }
+  },
+  {
+    "model_name": "Logistic Regression",
+    "dataset": "Dry Bean Dataset",
+    "train_samples": 9480,
+    "validation_samples": 2031,
+    "test_samples": 2032,
+    "features": 16,
+    "train": {
+      "accuracy": 0.9221518987341772,
+      "macro_f1": 0.9353774956008369
+    },
+    "validation": {
+      "accuracy": 0.9158050221565731,
+      "macro_f1": 0.9282824638579424
+    },
+    "test": {
+      "accuracy": 0.9168307086614174,
+      "macro_f1": 0.9323403848580972
+    }
+  }
+]

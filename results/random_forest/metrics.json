@@ -1,0 +1,20 @@
+{
+  "model_name": "Random Forest",
+  "dataset": "Dry Bean Dataset",
+  "train_samples": 9480,
+  "validation_samples": 2031,
+  "test_samples": 2032,
+  "features": 16,
+  "train": {
+    "accuracy": 0.9962025316455696,
+    "macro_f1": 0.9973689528375312
+  },
+  "validation": {
+    "accuracy": 0.9187592319054653,
+    "macro_f1": 0.930703872288673
+  },
+  "test": {
+    "accuracy": 0.9173228346456693,
+    "macro_f1": 0.9310883618868242
+  }
+}

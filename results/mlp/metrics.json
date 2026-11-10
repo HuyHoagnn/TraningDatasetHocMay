@@ -1,0 +1,20 @@
+{
+  "model_name": "MLP",
+  "dataset": "Dry Bean Dataset",
+  "train_samples": 9480,
+  "validation_samples": 2031,
+  "test_samples": 2032,
+  "features": 16,
+  "train": {
+    "accuracy": 0.9335443037974683,
+    "macro_f1": 0.9445378063658455
+  },
+  "validation": {
+    "accuracy": 0.9276218611521418,
+    "macro_f1": 0.9366672151486617
+  },
+  "test": {
+    "accuracy": 0.9207677165354331,
+    "macro_f1": 0.9333748529086993
+  }
+}

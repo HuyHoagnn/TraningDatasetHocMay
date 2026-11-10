@@ -1,0 +1,20 @@
+{
+  "model_name": "SVM RBF",
+  "dataset": "Dry Bean Dataset",
+  "train_samples": 9480,
+  "validation_samples": 2031,
+  "test_samples": 2032,
+  "features": 16,
+  "train": {
+    "accuracy": 0.9393459915611815,
+    "macro_f1": 0.9511092129089163
+  },
+  "validation": {
+    "accuracy": 0.9271294928606598,
+    "macro_f1": 0.937746452889748
+  },
+  "test": {
+    "accuracy": 0.9192913385826772,
+    "macro_f1": 0.9330599248969829
+  }
+}
