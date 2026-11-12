@@ -1,0 +1,32 @@
+{
+  "dataset": "Dry Bean Dataset",
+  "classifier": "Logistic Regression",
+  "features_before_reduction": 16,
+  "train_samples": 9480,
+  "validation_samples": 2031,
+  "test_samples": 2032,
+  "methods": {
+    "PCA": {
+      "features_after_reduction": 4,
+      "validation": {
+        "accuracy": 0.8862629246676514,
+        "macro_f1": 0.8908889246790915
+      },
+      "test": {
+        "accuracy": 0.8828740157480315,
+        "macro_f1": 0.8873286781266592
+      }
+    },
+    "LDA": {
+      "features_after_reduction": 6,
+      "validation": {
+        "accuracy": 0.9118660758247169,
+        "macro_f1": 0.9235249343436216
+      },
+      "test": {
+        "accuracy": 0.9178149606299213,
+        "macro_f1": 0.9325804536491551
+      }
+    }
+  }
+}
